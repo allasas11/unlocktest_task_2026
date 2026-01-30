@@ -5,7 +5,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-  origin: 'https://unlock-backend-18eo.onrender.com' 
+  origin: 'https://unlock-frontend.vercel.app/' 
 }));
 app.use(express.json());
 
