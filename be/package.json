@@ -8,9 +8,9 @@
     "dev": "node --watch server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alfonsas Alubeckas",
   "license": "ISC",
-  "description": "",
+  "description": "Node.js/Express API with PostgreSQL for the UNLOCK recruitment task.",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.2.3",
