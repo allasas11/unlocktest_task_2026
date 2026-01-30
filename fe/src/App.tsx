@@ -5,6 +5,7 @@ import {
   Container, Box, TextField, Button, Typography, Paper, CircularProgress, Fade 
 } from '@mui/material';
 import axios from 'axios';
+import { API_BASE_URL } from './config';
 
 function App() {
   const [question, setQuestion] = useState('');
@@ -18,7 +19,7 @@ function App() {
     setAnswer('');
     
     try {
-      const response = await axios.post('/api/ask', { question });
+      const response = await axios.post(`${API_BASE_URL}/api/ask`, { question });
       setAnswer(response.data.answer);
     } catch (error) {
       if (axios.isAxiosError(error)) {
