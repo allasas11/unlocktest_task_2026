@@ -1,7 +1,14 @@
 
+node_modules/
+**/node_modules/
 
-fe/node_modules/
-be/node_modules/
+dist/
+**/dist/
 
-fe/.env
-be/.env
+.env
+**/.env
+.env.local
+.env.*.local
+
+.DS_Store
+Thumbs.db
