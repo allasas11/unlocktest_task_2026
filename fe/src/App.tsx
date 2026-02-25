@@ -37,7 +37,7 @@ function App() {
       <Paper 
         elevation={0} 
         sx={{ 
-          p: { xs: 3, sm: 6 }, // Responsive padding
+          p: { xs: 3, sm: 6 },
           borderRadius: 4, 
           boxShadow: '0 10px 40px rgba(0,0,0,0.1)',
           background: 'rgba(255, 255, 255, 0.9)',
