@@ -5,7 +5,11 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-  origin: 'https://unlock-frontend.vercel.app' 
+  origin: 
+    [
+    'http://localhost:5174',
+    'https://unlock-frontend.vercel.app'
+    ]
 }));
 app.use(express.json());
 
